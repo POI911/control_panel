@@ -7,7 +7,7 @@ $hours = $_POST['hours'];
 $discount = $_POST['discount'];
 $sign_fees = $_POST['signFees'];
 
-
+// Hi 
 
 
 $_stockPrice = $hour_price * $hours;
