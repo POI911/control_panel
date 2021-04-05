@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <title>University Fees</title>
+	<meta charset="UTF-8">
+
+
+</head>
+<body>
+	<p><center>
+	<h3> حساب الرسوم الجامعية </h3>
+	<form  action="fees.php" method="POST" id ="fees_form">
+
+	<table  style="display:inline-table" width="10%">
+	<tbody >
+		<tr><td> سعر  الساعة</td>
+		<td>
+		<input type="number" id="hourPrice" name="hourPrice" ></td><td> ل.س
+		</td></tr>
+
+		<tr><td>عدد الساعات</td>
+		<td>
+			<input type="number" id="hours" name="hours" ></td><td> ساعة
+		</td></tr>
+
+		<tr><td>نسبة الخصم</td>
+		<td>
+			<input type="number" id="discount" name="discount" ></td><td> %
+		</td></tr>
+
+
+		<tr><td >الانتساب الفصلي</td>
+		<td>
+		<input type="number" id="signFees" name="signFees"></td><td>ل.س
+		</td></tr>
+
+
+
+
+        <tr>
+            <td><button type="submit" form="fees_form" value="Submit">Submit</button></td>
+        </tr>
+
+
+
+</tbody>
+</table>
+</form>
+</center>
+</p>
+
+</body>
+</html>
